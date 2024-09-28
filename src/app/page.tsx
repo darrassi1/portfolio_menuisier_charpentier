@@ -29,7 +29,6 @@ const PortfolioWebsite = () => {
   const fadeInUp = {
     initial: { opacity: 0, y: 20 },
     animate: { opacity: 1, y: 0 },
-    transition: { duration: 0.6 }
   };
 
   const staggerChildren = {
@@ -88,7 +87,7 @@ const PortfolioWebsite = () => {
             className="mb-12 flex flex-col md:flex-row items-center gap-8"
             initial={fadeInUp.initial}
             animate={fadeInUp.animate}
-            transition={fadeInUp.transition}
+            transition={{ duration: 0.6 }}
           >
             <motion.div
               className="w-48 h-48 rounded-full overflow-hidden shadow-lg"
@@ -117,7 +116,7 @@ const PortfolioWebsite = () => {
             className="mb-12"
             initial={fadeInUp.initial}
             animate={fadeInUp.animate}
-            transition={fadeInUp.transition}
+            transition={{ duration: 0.6 }}
           >
             <h2 className="text-2xl font-semibold mb-4">Contact</h2>
             <motion.div className="space-y-2" variants={staggerChildren}>
@@ -142,7 +141,7 @@ const PortfolioWebsite = () => {
             className="mb-12"
             initial={fadeInUp.initial}
             animate={fadeInUp.animate}
-            transition={fadeInUp.transition}
+            transition={{ duration: 0.6 }}
           >
             <h2 className="text-2xl font-semibold mb-4">Compétences</h2>
             <motion.ul
@@ -167,7 +166,7 @@ const PortfolioWebsite = () => {
             className="mb-12"
             initial={fadeInUp.initial}
             animate={fadeInUp.animate}
-            transition={fadeInUp.transition}
+            transition={{ duration: 0.6 }}
           >
             <h2 className="text-2xl font-semibold mb-4">Expérience Professionnelle</h2>
             <motion.div
@@ -217,7 +216,7 @@ const PortfolioWebsite = () => {
             className="mb-12"
             initial={fadeInUp.initial}
             animate={fadeInUp.animate}
-            transition={fadeInUp.transition}
+            transition={{ duration: 0.6 }}
           >
             <h2 className="text-2xl font-semibold mb-4">Formation</h2>
             <motion.div
@@ -255,7 +254,7 @@ const PortfolioWebsite = () => {
             className="mb-12"
             initial={fadeInUp.initial}
             animate={fadeInUp.animate}
-            transition={fadeInUp.transition}
+            transition={{ duration: 0.6 }}
           >
             <h2 className="text-2xl font-semibold mb-4">Langues</h2>
             <motion.ul
@@ -280,7 +279,7 @@ const PortfolioWebsite = () => {
             className="mb-12"
             initial={fadeInUp.initial}
             animate={fadeInUp.animate}
-            transition={fadeInUp.transition}
+            transition={{ duration: 0.6 }}
           >
             <h2 className="text-2xl font-semibold mb-4">Permis</h2>
             <motion.p
@@ -296,7 +295,7 @@ const PortfolioWebsite = () => {
           <motion.section
             initial={fadeInUp.initial}
             animate={fadeInUp.animate}
-            transition={fadeInUp.transition}
+            transition={{ duration: 0.6 }}
           >
             <h2 className="text-2xl font-semibold mb-4">Loisirs</h2>
             <motion.ul
